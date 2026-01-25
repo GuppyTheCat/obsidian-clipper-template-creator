@@ -84,10 +84,15 @@ skills/obsidian-clipper-template-creator/
 
 ## Resources
 
-- [Obsidian Web Clipper Documentation](https://help.obsidian.md/web-clipper)
+### Obsidian Web Clipper
+- [Web Clipper Documentation](https://help.obsidian.md/web-clipper)
 - [Variables](https://help.obsidian.md/web-clipper/variables)
 - [Filters](https://help.obsidian.md/web-clipper/filters)
 - [Templates](https://help.obsidian.md/web-clipper/templates)
+
+### Agent Skills Documentation
+- [Agent Skills Official Site](https://agentskills.io/home) - Complete guide to the Agent Skills standard
+- [Cursor Agent Skills](https://cursor.com/docs/context/skills) - Cursor-specific implementation guide
 
 ## License
 
