@@ -10,11 +10,13 @@ This skill enables AI agents (Claude Code, Cursor, Gemini CLI, etc.) to help you
 - 📋 Maps web content to your existing Obsidian Base schemas
 - 🔧 Generates valid JSON templates following Obsidian Web Clipper schema
 - ✅ Validates variables and provides reference documentation
+- 📐 Produces templates using Clipper 1.0 template logic (conditionals, loops, fallbacks) so optional sections and defaults work correctly; logic aligns with the Clipper’s built-in template validation
 - 📦 Includes example templates (recipes, general clipping)
 
 ## Compatibility
 
-This skill follows the universal **SKILL.md** format and works with any AI coding assistant that supports agentic skills.
+This skill targets **Obsidian Web Clipper 1.0.0** and supports the template logic (conditionals, loops, variable assignment) and template validation introduced in 1.0.0. 
+It follows the universal **SKILL.md** format and works with any AI coding assistant that supports agentic skills.
 
 | Tool | Type | Compatibility | Installation Path |
 | ------ | ------ | --------------- | ------------------ |
@@ -80,6 +82,7 @@ skills/obsidian-clipper-template-creator/
     ├── bases-workflow.md         # Mapping to Obsidian Bases
     ├── filters.md                # Available formatting filters
     ├── json-schema.md            # Template JSON structure
+    ├── logic.md                  # Template logic
     └── variables.md              # Available data variables
 ```
 
@@ -90,6 +93,7 @@ skills/obsidian-clipper-template-creator/
 - [Web Clipper Documentation](https://help.obsidian.md/web-clipper)
 - [Variables](https://help.obsidian.md/web-clipper/variables)
 - [Filters](https://help.obsidian.md/web-clipper/filters)
+- [Logic](https://help.obsidian.md/web-clipper/logic)
 - [Templates](https://help.obsidian.md/web-clipper/templates)
 
 ### Agent Skills Documentation
