@@ -38,7 +38,7 @@ Most tools auto-discover skills in `.agent/skills/`.
 
 ### Important: Template Paths Setup
 
-This skill contains hardcoded references to `Templates/Bases/` as the default path for your Obsidian Base schemas. **You must edit the skill files to configure your vault path before using the skill.**
+This skill contains hardcoded references to `Bases/` as the default path for your Obsidian Base schemas. **You must edit the skill files to configure your vault path before using the skill.**
 
 #### Files to Edit
 
@@ -48,7 +48,7 @@ This skill contains hardcoded references to `Templates/Bases/` as the default pa
 #### Setup Steps
 
 1. **Edit both SKILL.md and references/bases-workflow.md**
-2. **Replace all instances of `Templates/Bases/`** with your actual Obsidian bases directory path
+2. **Replace all instances of `Bases/`** with your actual Obsidian bases directory path
 
 The skill expects your Base schemas to be in `*.base` files within your configured directory.
 

@@ -10,8 +10,8 @@ This skill helps you create importable JSON templates for the Obsidian Web Clipp
 ## Workflow
 
 1. **Identify User Intent:** specific site (YouTube), specific type (Recipe), or general clipping?
-2. **Check Existing Bases:** The user likely has a "Base" schema defined in `Templates/Bases/`.
-    - **Action:** Read `Templates/Bases/*.base` to find a matching category (e.g., `Recipes.base`).
+2. **Check Existing Bases:** The user likely has a "Base" schema defined in `Bases/`.
+    - **Action:** Read `Bases/*.base` to find a matching category (e.g., `Recipes.base`).
     - **Action:** Use the properties defined in the Base to structure the Clipper template properties.
     - See [references/bases-workflow.md](references/bases-workflow.md) for details.
 3. **Fetch & Analyze Reference URL:** Validate variables against a real page.
